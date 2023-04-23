@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { GetMoviesByReleaseDateUseCase } from "./getMoviesByReleaseDateUseCase";
+import { GetMoviesByReleaseDateUseCase } from "./GetMoviesByReleaseDateUseCase";
 
 export class GetMoviesByReleaseDateController {
     async handle(req: Request, res: Response) {
